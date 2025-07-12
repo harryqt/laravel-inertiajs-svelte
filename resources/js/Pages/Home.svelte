@@ -1,4 +1,6 @@
 <script>
+    import { Button } from "$lib/components/ui/button/index.js";
+
     let count = $state(0);
 
     function increment() {
@@ -6,10 +8,7 @@
     }
 </script>
 
-<button
-    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-    onclick={increment}
->
+<Button onclick={increment}>
     Clicked {count}
     {count === 1 ? "time" : "times"}
-</button>
+</Button>

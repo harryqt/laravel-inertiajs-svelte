@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "$lib": ["./resources/js/lib"],
+            "$lib/*": ["./resources/js/lib/*"],
+            "@/*": ["./resources/js/*"]
+        }
+    },
+    "include": ["resources/js/**/*"]
+}
